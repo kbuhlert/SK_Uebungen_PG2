@@ -4,14 +4,15 @@ public class Zutat {
     public String zutat;
     public Double menge;
 
-    public Zutat(String welcheZutat, Double mengeZutat){
+    public Zutat(String welcheZutat, Double mengeZutat) {
         this.zutat = welcheZutat;
         this.menge = mengeZutat;
     }
-}
 
-public void print(){
-    System.out.println("Sie brauchen " + menge + " " + zutat );
+
+    public void print() {
+        System.out.println("Sie brauchen " + menge + " " + zutat);
+    }
 }
 
 /*public void setZutat (String nurDieseZutat){
