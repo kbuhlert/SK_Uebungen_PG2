@@ -24,6 +24,7 @@ public class Rezept {
         for (Zutat element : zutatenliste) {
             element.menge = element.menge / personenzahl * neuePersonenzahl;
         }
+        personenzahl=neuePersonenzahl;
     }
 
     public double gesamtGewicht() {

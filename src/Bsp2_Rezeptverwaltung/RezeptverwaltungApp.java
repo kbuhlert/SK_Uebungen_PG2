@@ -11,6 +11,14 @@ public class RezeptverwaltungApp {
 
         Rezept eierkuchen = new Rezept("Eierkuchen", 2, zutatenliste);
         eierkuchen.printRezept();
+        System.out.println("Das Gesamtgewicht der Eierkuchenbeträgt: " + eierkuchen.gesamtGewicht());
+        System.out.println("-----");
+        eierkuchen.umrechnen(8);
+        eierkuchen.printRezept();
+
+        System.out.println("-----");
+        System.out.println("Das Gesamtgewicht der Eierkuchenbeträgt: " + eierkuchen.gesamtGewicht());
+
 
     }
 }
