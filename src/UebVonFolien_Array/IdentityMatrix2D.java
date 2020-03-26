@@ -5,7 +5,7 @@ public class IdentityMatrix2D {
         double[][] result = generateIdentityMatrix(8);
         printMatrix(result);
     }
-    
+
     public static double[][] generateIdentityMatrix(int size){
         double[][] matrix = new double[size][size];
         for(int i=0;i<matrix.length;i++){
