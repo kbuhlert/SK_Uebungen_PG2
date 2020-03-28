@@ -9,8 +9,7 @@ public class Profil {
     private MaybeDouble weight; //Wir verwenden hir den selber kreierten Datentyp
     private Profil bestFriend;
 
-    public Profil(String userName, String photoPath,
-                  int alter, String mobileNumber, double weight) {
+    public Profil(String userName, String photoPath, int alter, String mobileNumber, double weight) {
         this.userName = userName;
         this.photoPath = photoPath;
         this.alter = new MayBe<Integer>(alter, false);
@@ -43,7 +42,7 @@ public class Profil {
         return weight.getValue();
     }
 
-    public String toString() {
+    public String toString() {          //Methode um Userinfos auszudrucken
         return "Profil{" +
                 "userName='" + userName + '\'' +
                 ", photoPath='" + photoPath + '\'' +

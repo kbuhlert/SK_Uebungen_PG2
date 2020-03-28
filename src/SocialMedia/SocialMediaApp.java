@@ -1,6 +1,6 @@
 package SocialMedia;
 
-public class DemoApp {
+public class SocialMediaApp {
     public static void main(String[] args) {
 
         Profil susi = new Profil("susi@test.com", "test.com/susi.png", 38, "004366412345678",62.8 );

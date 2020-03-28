@@ -1,6 +1,6 @@
 package SocialMedia;
 
-//Unabhängig von Datentyp, ähnlich wie MaybeDouble
+//ähnlich wie MaybeDouble, ist aber unabhängig von Datentyp wegen <T>, bestimmt ob Variablen angezeigt werden, egal welcher Art
 
 public class MayBe<T> {
 

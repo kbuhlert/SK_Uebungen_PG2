@@ -2,7 +2,7 @@ package SocialMedia;
 
 public class MaybeDouble {
 
-    //nimmt boulesches Feld entgegen (Anzeigen oder nicht)
+    //nimmt boulesches Feld entgegen (Anzeigen oder nicht) und bestimmt ob eine Double-Variable angezeigt wird
 
     private boolean showValue;
     private double value; //nimmt wert auf, der entsprechend showValue angezeigt wird

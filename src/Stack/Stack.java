@@ -10,7 +10,7 @@ public class Stack<T> {
         counter = -1;
     }
 
-    public void push(T value){
+    public void push(T value){      //value = das Zeug, was ich in den Array stapeln möchte
         if(counter<elements.length){
         counter++;
         elements[counter] = value;}
@@ -23,8 +23,7 @@ public class Stack<T> {
         counter--;
         return value;}
         else
-            System.out.println("Array ist leer");
+            System.out.println("Array ist leer. Es kann kein Element entfernt");
             return null;
-
     }
 }
