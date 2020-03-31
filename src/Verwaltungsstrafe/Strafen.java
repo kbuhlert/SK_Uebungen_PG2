@@ -1,4 +1,4 @@
-package Bsp3_Verwaltungsstrafe;
+package Verwaltungsstrafe;
 
 public class Strafen {
     private String vorname;

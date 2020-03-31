@@ -1,4 +1,4 @@
-package Bsp3_Verwaltungsstrafe;
+package Verwaltungsstrafe;
 
 public class StrafenApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Bsp2_Rezeptverwaltung;
+package Rezeptverwaltung;
 
 public class Zutat {
     public String zutat;
